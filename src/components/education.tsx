@@ -27,7 +27,7 @@ export default function Education() {
           <h2 className="text-3xl font-bold text-dark">Education</h2>
         </div>
 
-        <Timeline items={educationItems} overlapAmount="6" />
+        <Timeline items={educationItems} overlapAmount="8" />
       </div>
     </section>
   );

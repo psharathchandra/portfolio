@@ -10,17 +10,29 @@ type TimelineItem = {
 
 type TimelineProps = {
   items: TimelineItem[];
-  /** translate classname for overlap, default is md:translate-x-6/-6 */
-  overlapAmount?: '4' | '6' | '8';
+  /** translate classname for overlap - allowed: '4' | '6' | '8' */
+  overlapAmount?: '10' | '12' | '8';
 };
 
 function tagKey(tag: string, i: number) {
   return `${tag}-${i}`;
 }
 
-export default function Timeline({ items, overlapAmount = '8' }: TimelineProps) {
-  const translatePos = `md:translate-x-${overlapAmount}`;
-  const translateNeg = `md:-translate-x-${overlapAmount}`;
+export default function Timeline({ items, overlapAmount = '10' }: TimelineProps) {
+  // map allowed overlap amounts to explicit Tailwind classes so JIT can pick them up
+  const translateMapPos: Record<'10' | '12' | '8', string> = {
+    '10': 'md:translate-x-10',
+    '12': 'md:translate-x-12',
+    '8': 'md:translate-x-8'
+  };
+  const translateMapNeg: Record<'10' | '12' | '8', string> = {
+    '10': 'md:-translate-x-10',
+    '12': 'md:-translate-x-12',
+    '8': 'md:-translate-x-8'
+  };
+
+  const translatePos = translateMapPos[overlapAmount];
+  const translateNeg = translateMapNeg[overlapAmount];
 
   return (
     <div className="relative space-y-12 pt-12 pb-12">

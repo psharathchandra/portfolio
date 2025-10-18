@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function Navbar() {
   return (
     <nav className="bg-dark opacity-85 shadow-md sticky top-0 z-50">
@@ -6,9 +8,9 @@ export default function Navbar() {
           {/* Logo / Brand */}
           <ul className="flex md:flex space-x-6 text-light">
             <li>
-              <a href="/" className="flex items-center font-bold text-xl p-3 m-1 hover:text-gray-400 transition-all duration-300">
+              <Link href="/" className="flex items-center font-bold text-xl p-3 m-1 hover:text-gray-400 transition-all duration-300">
                 Sharath Chandra
-              </a>
+              </Link>
             </li>
           </ul>
 

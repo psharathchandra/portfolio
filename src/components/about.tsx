@@ -44,14 +44,14 @@ export default function About() {
               a comprehensive understanding of the full development lifecycle.
             </p>
             <p className="text-dark/70 text-lg leading-relaxed">
-              Specializing in React, Next.js, and Node.js, I've had the opportunity to work on diverse projects 
+              Specializing in React, Next.js, and Node.js, I&apos;ve had the opportunity to work on diverse projects 
               ranging from e-commerce platforms to real-time analytics dashboards. My approach combines clean code 
               practices with innovative problem-solving to deliver scalable and efficient solutions.
             </p>
             <p className="text-dark/70 text-lg leading-relaxed">
               I thrive in collaborative environments where I can contribute to meaningful projects while continuously 
-              learning and adapting to new technologies. Whether it's optimizing performance, implementing complex 
-              features, or mentoring team members, I'm always excited to take on new challenges.
+              learning and adapting to new technologies. Whether it&apos;s optimizing performance, implementing complex 
+              features, or mentoring team members, I&apos;m always excited to take on new challenges.
             </p>
           </div>
         </div>

@@ -32,7 +32,7 @@ function Portrait({ src, alt }: { src: string; alt: string }) {
 function ProfileInfo() {
   return (
     <>
-     <p className="text-2xl mb-4">Hello, I'm</p>
+     <p className="text-2xl mb-4">Hello, I&apos;m</p>
       <h1 className="text-5xl font-bold mb-4">Sharath Chandra</h1>
       <p className="text-2xl mb-6">Software Engineer</p>
       <div className="flex gap-4 mb-6">
