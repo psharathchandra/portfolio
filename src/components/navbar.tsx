@@ -20,22 +20,22 @@ export default function Navbar() {
               </a>
             </li>
             <li>
-              <a href="/experience" className="flex p-3 my-1 hover:text-gray-400 transition-all duration-300">
+              <a href="#experience" className="flex p-3 my-1 hover:text-gray-400 transition-all duration-300">
                 Experience
               </a>
             </li>
             <li>
-              <a href="/education" className="flex p-3 my-1 hover:text-gray-400 transition-all duration-300">
+              <a href="#education" className="flex p-3 my-1 hover:text-gray-400 transition-all duration-300">
                 Education
               </a>
             </li>
             <li>
-              <a href="/projects" className="flex p-3 my-1 hover:text-gray-400 transition-all duration-300">
+              <a href="#projects" className="flex p-3 my-1 hover:text-gray-400 transition-all duration-300">
                 Projects
               </a>
             </li>
             <li>
-              <a href="/contact" className="flex p-3 my-1 hover:text-gray-400 transition-all duration-300">
+              <a href="#contact" className="flex p-3 my-1 hover:text-gray-400 transition-all duration-300">
                 Contact
               </a>
             </li>
