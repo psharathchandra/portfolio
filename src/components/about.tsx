@@ -39,19 +39,13 @@ export default function About() {
           {/* Right column: 75% with description */}
           <div className="md:w-3/4 space-y-6">
             <p className="text-dark/70 text-lg leading-relaxed">
-              I am a passionate Software Engineer with a strong foundation in both frontend and backend development. 
-              My journey began with a deep curiosity for creating user-friendly web applications, which has evolved into 
-              a comprehensive understanding of the full development lifecycle.
+            I’m a Full Stack Software Engineer passionate about building end-to-end, cloud-native solutions combining scalable backends, intuitive frontends, and reliable deployment pipelines. I specialize in Java Spring Boot microservices, REST APIs, and modern JavaScript ecosystems like React, Redux, Node.js, and TypeScript.
             </p>
             <p className="text-dark/70 text-lg leading-relaxed">
-              Specializing in React, Next.js, and Node.js, I&apos;ve had the opportunity to work on diverse projects 
-              ranging from e-commerce platforms to real-time analytics dashboards. My approach combines clean code 
-              practices with innovative problem-solving to deliver scalable and efficient solutions.
+              At Cognizant, I contributed to the development and maintenance of a large-scale U.S. wireless operator customer portal, optimizing microservices, database queries, and secure JWT-based authentication. I collaborated with cross-functional teams using Agile practices and streamlined deployments via AWS, Docker, and GitLab CI/CD for mission-critical systems.
             </p>
             <p className="text-dark/70 text-lg leading-relaxed">
-              I thrive in collaborative environments where I can contribute to meaningful projects while continuously 
-              learning and adapting to new technologies. Whether it&apos;s optimizing performance, implementing complex 
-              features, or mentoring team members, I&apos;m always excited to take on new challenges.
+            Currently at TechElevate, I build modular, reusable UI components while integrating backend APIs for educational platforms. Focused on system design, architecture trade-offs, and AI-assisted engineering, I deliver complete solutions from UI/UX and backend to cloud deployment and performance optimization.
             </p>
           </div>
         </div>
