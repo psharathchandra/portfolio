@@ -1,30 +1,31 @@
 import Timeline from './organisms/timeline';
 
 export default function Experience() {
-  const experiences = [
-    {
-      title: 'Senior Software Engineer',
-      subtitle: 'Company Name',
-      period: '2022 - Present',
-      description: [
-        'Led development of key features for enterprise web applications',
-        'Mentored junior developers and conducted code reviews',
-        'Implemented CI/CD pipelines reducing deployment time by 40%'
-      ],
-      tags: ['React', 'Node.js', 'AWS']
-    },
-    {
-      title: 'Software Developer',
-      subtitle: 'Previous Company',
-      period: '2020 - 2022',
-      description: [
-        'Developed and maintained multiple client-facing applications',
-        'Collaborated with cross-functional teams to deliver projects on time',
-        'Optimized database queries improving performance by 30%'
-      ],
-      tags: ['TypeScript', 'Express', 'MongoDB']
-    }
-  ];
+ const experiences = [
+  {
+    title: 'Web Developer',
+    subtitle: 'TechElevate, Cincinnati, OH',
+    period: 'Jun 2025 – Present',
+    description: [
+      'Built scalable UIs with React, Redux, Next.js, and TypeScript for education platforms.',
+      'Developed secure REST APIs with Express.js and JWT, improving system reliability.'
+    ],
+    tags: ['React', 'Next.js', 'TypeScript', 'Express.js', 'JWT', 'AWS']
+  },
+  {
+    title: 'Jr. Software Engineer',
+    subtitle: 'Cognizant',
+    period: 'Nov 2021 – Aug 2023',
+    description: [
+      'Engineered microservices for a U.S. telecom portal using Spring Boot and REST APIs.',
+      'Improved API response times by 25% via query optimization and caching strategies.',
+      'Automated CI/CD deployments to AWS, ensuring secure, high-availability systems.'
+    ],
+    tags: ['Spring Boot', 'ReactJS', 'Redux', 'SQL Server', 'AWS', 'Jenkins', 'Microservices']
+  }
+];
+
+
 
   return (
     <section className="bg-light py-20" id="experience">
