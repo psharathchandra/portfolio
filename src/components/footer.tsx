@@ -10,42 +10,44 @@ function Copyright() {
 function FooterLinks() {
   return (
     <div className="flex gap-4 mt-2">
-      <a href="https://github.com/yourgithub" target="_blank" rel="noopener noreferrer" className="hover:underline">GitHub</a>
-      <a href="https://linkedin.com/in/yourlinkedin" target="_blank" rel="noopener noreferrer" className="hover:underline">LinkedIn</a>
-      <a href="https://leetcode.com/yourleetcode" target="_blank" rel="noopener noreferrer" className="hover:underline">LeetCode</a>
+      <a href="https://github.com/psharathchandra" target="_blank" rel="noopener noreferrer" className="hover:underline">GitHub</a>
+      <a href="https://www.linkedin.com/in/sharathchandrapalakolu/" target="_blank" rel="noopener noreferrer" className="hover:underline">LinkedIn</a>
     </div>
   );
 }
 
 function ContactInfo() {
   return (
-    <div className="text-sm text-gray-300 flex flex-col gap-1">
-      <div>
-        Email: <a href="mailto:sharath.chandra@example.com" className="hover:underline">sharath.chandra@example.com</a>
+    <div id="contact" className="text-sm text-gray-300 flex flex-col gap-1">
+      <div className="text-xl font-bold">
+        Contact:
       </div>
       <div>
-        Location: Bengaluru, India
+        Email: <a href="mailto:sharathchandrapalakolu@gmail.com" className="hover:underline">sharathchandrapalakolu@gmail.com</a>
       </div>
       <div>
-        Phone: <a href="tel:+919876543210" className="hover:underline">+91 98765 43210</a>
+        Location: United States
       </div>
-    </div>
-  );
-}
+      <div>
+        Phone: <a href="tel:+1 (602)-312-1710" className="hover:underline">+1 (602)-312-1710</a>
 
-export default function Footer() {
-  return (
-    <footer className="bg-dark text-light py-6 border-t border-gray-700">
-      <div className="max-w-7xl mx-auto px-4 flex flex-col sm:flex-row justify-between items-center">
-        <div className="flex-1 flex flex-col items-start gap-2">
+        </div>
+        </div>
+        );
+      }
+
+      export default function Footer() {
+        return (
+        <footer id="footer" className="bg-dark text-light py-6 border-t border-gray-700">
+          <div className="max-w-7xl mx-auto px-4 flex flex-col sm:flex-row justify-center items-center gap-8">
+          <div className="flex flex-col items-start">
+            <ContactInfo />
+          </div>
+          <div className="flex flex-col items-start pl-40">
              <FooterLinks />
-          <Copyright />
-         
-        </div>
-        <div className="flex-1 flex justify-end">
-          <ContactInfo />
-        </div>
-      </div>
+            <Copyright />
+          </div>
+          </div>
     </footer>
   );
 }
