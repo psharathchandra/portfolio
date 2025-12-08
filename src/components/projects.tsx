@@ -1,20 +1,20 @@
 export default function Projects() {
   const projects = [
     {
-      title: "Project Management Software",
-      description: "A full-stack e-commerce platform with real-time inventory management and payment processing.",
-      technologies: ["Next.js", "Node.js", "MongoDB", "Stripe"],
-      image: "/projects/ecommerce.jpg",
+      title: "Project Management System",
+      description: "Built a MERN-based Defect Tracking System with a modular React frontend (custom hooks, Redux, lazy loading) and secure Express.js APIs powered by JWT auth, RBAC, and MongoDB. The tool improved team productivity and defect traceability through structured workflows and clear role-based visibility.",
+      technologies: ["React.js", "Node.js", "MongoDB", "Express.js", "Redux", "Bootstrap"],
+      image: "assets/images/DefectTrackingSystem.png",
       links: {
-        demo: "",
+        demo: "https://defect-tracking-system.vercel.app/",
         github: "https://github.com/psharathchandra/defectTrackingSystem"
       }
     },
     {
       title: "Disaster Response Dashboard",
-      description: "A collaborative task management application with real-time updates and team features.",
+      description: "Developed an interactive Disaster Response Dashboard using JavaScript, D3.js, and NLP (n-grams, TF-IDF) to visualize incident patterns, sentiment trends, and resource needs. Delivered custom insights that helped users quickly understand impact areas and priority zones.",
       technologies: ["D3.js", "NLP", "JavaScript"],
-      image: "/projects/taskmanager.jpg",
+      image: "assets/images/DisasterResponseDashboard.png",
       links: {
         demo: "https://psharathchandra.github.io/Disaster-response-dashboard/",
         github: "https://github.com/psharathchandra/Disaster-response-dashboard"
@@ -46,11 +46,11 @@ export default function Projects() {
               className="bg-white rounded-lg shadow-md border border-dark/10 overflow-hidden flex flex-col md:flex-row items-stretch"
             >
               {/* Image - left on md+, top on mobile */}
-              <div className="md:w-1/3 w-full h-56 md:h-auto flex-shrink-0">
+              <div className="p-6 md:w-1/3 w-full h-56 md:h-auto flex-shrink-0">
                 <img
                   src={project.image}
                   alt={project.title}
-                  className="object-cover w-full h-full"
+                  className="object-cover w-full h-full rounded-lg"
                 />
               </div>
 

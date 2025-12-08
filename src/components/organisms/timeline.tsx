@@ -47,7 +47,7 @@ export default function Timeline({ items, overlapAmount = '10' }: TimelineProps)
           <div key={index} className="relative grid grid-cols-1 md:grid-cols-2 gap-4 items-start">
             <div className={isEven ? 'flex md:justify-end' : 'hidden md:block'}>
               {isEven && (
-                <div className={`relative z-10 bg-light p-6 rounded-lg shadow-md border border-dark/10 md:w-5/6 ${translateClass}`}>
+                <div className={`relative z-10 bg-white p-6 rounded-lg shadow-md border border-dark/10 md:w-5/6 ${translateClass}`}>
                   <div className="mb-4">
                     <h3 className="text-xl font-semibold text-dark">{it.title}</h3>
                     {it.subtitle && <p className="text-dark/70">{it.subtitle}</p>}
@@ -75,7 +75,7 @@ export default function Timeline({ items, overlapAmount = '10' }: TimelineProps)
 
             <div className={!isEven ? 'flex md:justify-start' : 'hidden md:block'}>
               {!isEven && (
-                <div className={`relative z-10 bg-light p-6 rounded-lg shadow-md border border-dark/10 md:w-5/6 ${translateClass}`}>
+                <div className={`relative z-10 bg-white p-6 rounded-lg shadow-md border border-dark/10 md:w-5/6 ${translateClass}`}>
                   <div className="mb-4">
                     <h3 className="text-xl font-semibold text-dark">{it.title}</h3>
                     {it.subtitle && <p className="text-dark/70">{it.subtitle}</p>}
@@ -103,7 +103,7 @@ export default function Timeline({ items, overlapAmount = '10' }: TimelineProps)
 
             {/* small screens */}
             <div className="md:hidden">
-              <div className="relative z-10 bg-light p-6 rounded-lg shadow-md border border-dark/10">
+              <div className="relative z-10 bg-white p-6 rounded-lg shadow-md border border-dark/10">
                 <div className="mb-4">
                   <h3 className="text-xl font-semibold text-dark">{it.title}</h3>
                   {it.subtitle && <p className="text-dark/70">{it.subtitle}</p>}

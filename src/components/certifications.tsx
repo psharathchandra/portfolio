@@ -1,25 +1,25 @@
 export default function Certifications() {
   const certifications = [
     {
-      name: "AWS Certified Developer - Associate",
-      issuer: "Amazon Web Services",
-      date: "2023",
-      credentialId: "ABC123XYZ",
-      link: "https://www.credential.net/abc123xyz"
+      name: "Neo4j Certified Professional",
+      issuer: "Neo4j",
+      date: "2025",
+      credentialId: "d59796ac-3ed7-4c9f-a406-8f1423369ed9",
+      link: "https://graphacademy.neo4j.com/c/d59796ac-3ed7-4c9f-a406-8f1423369ed9/"
     },
     {
-      name: "Professional Full-Stack Engineer",
-      issuer: "Meta",
-      date: "2023",
-      credentialId: "META789",
-      link: "https://www.credential.net/meta789"
+      name: "Neo4j Graph Data Science Certification",
+      issuer: "Neo4j",
+      date: "2025",
+      credentialId: "a06ac7ae-5294-461a-b618-576bbf15c638",
+      link: "https://graphacademy.neo4j.com/c/a06ac7ae-5294-461a-b618-576bbf15c638/"
     },
     {
-      name: "JavaScript Algorithms and Data Structures",
-      issuer: "freeCodeCamp",
-      date: "2022",
-      credentialId: "FCC456",
-      link: "https://www.freecodecamp.org/certification/abc123"
+      name: "NPTEL Certified - Programming C",
+      issuer: "NPTEL",
+      date: "2019",
+      credentialId: "NPTEL18CS31S113922961810174577",
+      link: "https://archive.nptel.ac.in/noc/Ecertificate/?q=NPTEL18CS31S113922961810174577"
     }
   ];
 
@@ -32,7 +32,7 @@ export default function Certifications() {
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {certifications.map((cert, index) => (
-            <div key={index} className="bg-light p-6 rounded-lg shadow-md border border-dark/10">
+            <div key={index} className="bg-white p-6 rounded-lg shadow-md border border-dark/10">
               <h3 className="text-xl font-semibold text-dark mb-2">{cert.name}</h3>
               <p className="text-dark/70 mb-1">Issuer: {cert.issuer}</p>
               <p className="text-dark/70 mb-1">Date: {cert.date}</p>

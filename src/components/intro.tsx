@@ -48,11 +48,11 @@ function SocialLinks() {
   return (
     <div className="flex gap-6 mt-2">
       <a href="https://github.com/psharathchandra" target="_blank" rel="noopener noreferrer">
-        <img src="/github-mark.svg" alt="GitHub" className="w-8 h-8 hover:scale-110 transition" />
+        <img src="/assets/logos/github-mark.svg" alt="GitHub" className="w-8 h-8 hover:scale-110 transition" />
       </a>
      
       <a href="https://www.linkedin.com/in/sharathchandrapalakolu/" target="_blank" rel="noopener noreferrer">
-        <img src="/InBug-Black.png" alt="LinkedIn" className="w-8 h-8 hover:scale-110 transition" />
+        <img src="/assets/logos/InBug-Black.png" alt="LinkedIn" className="w-8 h-8 hover:scale-110 transition" />
       </a>
     </div>
   );

@@ -11,25 +11,25 @@ export default function About() {
           <div className="md:w-1/4">
             <div className="grid grid-cols-2 gap-4">
               {/* Experience Card */}
-              <div className="bg-light p-4 rounded-lg shadow-md hover:shadow-lg transition border border-dark/10">
+              <div className="bg-white p-4 rounded-lg shadow-md hover:shadow-lg transition border border-dark/10">
                 <h3 className="font-bold text-xl text-dark">3+</h3>
                 <p className="text-dark/60 text-sm">Years Experience</p>
               </div>
               
               {/* Projects Card */}
-              <div className="bg-light p-4 rounded-lg shadow-md hover:shadow-lg transition border border-dark/10">
+              <div className="bg-white p-4 rounded-lg shadow-md hover:shadow-lg transition border border-dark/10">
                 <h3 className="font-bold text-xl text-dark">20+</h3>
                 <p className="text-dark/60 text-sm">Projects</p>
               </div>
               
               {/* Companies Card */}
-              <div className="bg-light p-4 rounded-lg shadow-md hover:shadow-lg transition border border-dark/10">
+              <div className="bg-white p-4 rounded-lg shadow-md hover:shadow-lg transition border border-dark/10">
                 <h3 className="font-bold text-xl text-dark">2+</h3>
                 <p className="text-dark/60 text-sm">Companies</p>
               </div>
               
               {/* Skills Card */}
-              <div className="bg-light p-4 rounded-lg shadow-md hover:shadow-lg transition border border-dark/10">
+              <div className="bg-white p-4 rounded-lg shadow-md hover:shadow-lg transition border border-dark/10">
                 <h3 className="font-bold text-xl text-dark">10+</h3>
                 <p className="text-dark/60 text-sm">Technologies</p>
               </div>
