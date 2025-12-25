@@ -3,7 +3,7 @@ export default function Projects() {
     {
       title: "Project Management System",
       description: "Built a MERN-based Defect Tracking System with a modular React frontend (custom hooks, Redux, lazy loading) and secure Express.js APIs powered by JWT auth, RBAC, and MongoDB. The tool improved team productivity and defect traceability through structured workflows and clear role-based visibility.",
-      technologies: ["React.js", "Node.js", "MongoDB", "Express.js", "Redux", "Bootstrap"],
+      technologies: ["React.js", "Express.js", "MongoDB", "Node.js", "Redux", "Bootstrap"],
       image: "assets/images/DefectTrackingSystem.png",
       links: {
         demo: "https://defect-tracking-system.vercel.app/",
@@ -21,14 +21,11 @@ export default function Projects() {
       }
     },
     {
-      title: "Analytics Dashboard",
-      description: "Real-time analytics dashboard with data visualization and reporting features.",
-      technologies: ["React", "D3.js", "Express", "PostgreSQL"],
-      image: "/projects/dashboard.jpg",
-      links: {
-        demo: "https://demo.example.com",
-        github: "https://github.com/yourusername/project"
-      }
+      title: "GraphRAG AI Recommendation Engine",
+      description: "Developed a personalized learning recommendation engine using Neo4j knowledge graphs and AI-based tag embeddings to connect users with relevant content. Introduced adaptive interest propagation dynamically updates recommendations based on user behavior for continuous personalization.",
+      technologies: ["Neo4J", "Python", "APOC", "Cypher", "FastAPI", "LangChain", "Neo4J GDS"],
+      image: "assets/images/GraphRAG_AI.png",
+      
     }
   ];
 
