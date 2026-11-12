@@ -64,7 +64,7 @@ export default function Intro() {
       <div className="flex w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 items-center">
         {/* Left Column: Portrait */}
         <div className="flex-1 flex items-center justify-center">
-          <Portrait src="/pp3.jpeg" alt="Sharath Chandra Portrait" />
+          <Portrait src="/profile_picture.jpeg" alt="Sharath Chandra Portrait" />
         </div>
         {/* Right Column: Info & Actions */}
         <div className="flex-1 flex flex-col justify-center items-center pr-10">
